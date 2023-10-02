@@ -1,0 +1,32 @@
+h1{
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 200px;
+  letter-spacing: 70px;
+}
+
+h2{
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 120px;
+  letter-spacing: 90px;
+}
+
+p{
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 120px;
+  letter-spacing: 60px;
+}
+
+
+
+.container {
+            position: relative;
+        }
+
+        .overlay {
+             top: 50%;
+            left: 50%;
+             transform: translate(-50%, -50%);
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.1); /* Background color with transparency */
+            color: white; /* Text color */
+        
