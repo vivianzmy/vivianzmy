@@ -15,18 +15,32 @@ p{
   font-size: 120px;
   letter-spacing: 60px;
 }
+ .simplelink {
+  text-decoration: none;
+  color: whitesmoke;
+  transition: all 0.1s ease;
+}
 
-
+.simplelink:hover {
+ color:#F535AA ;
+ font size:200px;
+}
+.fillrect:hover {
+  color: #3fff00;
+  cursor: pointer;
+}
 
 .container {
             position: relative;
         }
 
         .overlay {
-             top: 50%;
+             top: 30%;
             left: 50%;
              transform: translate(-50%, -50%);
             position: absolute;
             background-color: rgba(0, 0, 0, 0.1); /* Background color with transparency */
             color: white; /* Text color */
-        
+          }
+
+
