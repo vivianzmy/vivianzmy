@@ -1,0 +1,39 @@
+.container {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image2 {
+   position: absolute;
+        top: 50px; /* Adjust the top position as needed */
+        left: 50px; /* Adjust the left position as needed */
+        width: 30px; /* Increase the width as needed */
+        height: 200px; /* Increase the height as needed */
+        border: 1px solid #000000;
+}
+
+h1{
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 200px;
+  letter-spacing: 70px;
+}
+
+h2{
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 120px;
+  letter-spacing: 90px;
+}
+
+p{
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 120px;
+  letter-spacing: 60px;
+}
+ 
