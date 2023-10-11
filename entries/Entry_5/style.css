@@ -41,10 +41,81 @@ img {
 
 .simplelink:hover {
     font-family: 'pixelify sans', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: #c39555;
 }
 
+.simplelink2 {
+    position: relative;
+    top: 550px;
+    left: 40px; /* Adjusted to move the link 20px to the right */
+    z-index: 2;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 0.1s ease;
+    position: relative; /* This line is not needed, you can remove it */
+}
+
+.simplelink2:hover {
+    font-family: 'pixelify sans', sans-serif;
+    font-size: 20px;
+    color: #c39555;
+}
+
+.simplelink3 {
+    position: relative;
+    top: 600px;
+    left: -180px; /* Adjusted to move the link 20px to the right */
+    z-index: 2;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 0.1s ease;
+    position: relative; /* This line is not needed, you can remove it */
+}
+
+.simplelink3:hover {
+    font-family: 'pixelify sans', sans-serif;
+    font-size: 20px;
+    color: #c39555;
+}
+
+.simplelink4 {
+    position: relative;
+    top: 650px;
+    left: -330px; /* Adjusted to move the link 20px to the right */
+    z-index: 2;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 0.1s ease;
+    position: relative; /* This line is not needed, you can remove it */
+}
+
+.simplelink4:hover {
+    font-family: 'pixelify sans', sans-serif;
+    font-size: 20px;
+    color: #c39555;
+}
+
+.simplelink5 {
+    position: relative;
+    top: 700px;
+    left: -450px; /* Adjusted to move the link 20px to the right */
+    z-index: 2;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 0.1s ease;
+    position: relative; /* This line is not needed, you can remove it */
+}
+
+.simplelink5:hover {
+    font-family: 'pixelify sans', sans-serif;
+    font-size: 20px;
+    color: #c39555;
+}
 h1{
   font-family: 'Dela Gothic One', sans-serif;
   font-size: 200px;
