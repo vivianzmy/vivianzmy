@@ -1,39 +1,80 @@
-.container {
-  position: relative;
-  top: 0;
-  left: 0;
-}
+  h1, h2, p {
+            font-family: 'Dela Gothic One', sans-serif;
+            position: relative;
+        }
 
+        body {
+          margin: 0;
+          padding: 0;
+          top:;
+          background: black;
+        }
+       
+img {
+  top: 0px;
+  left:0px;
+}
 .image1 {
-  position: relative;
-  top: 0;
+  width: 100vw;
+  top: 0px;
   left: 0;
 }
 
 .image2 {
    position: absolute;
-        top: 50px; /* Adjust the top position as needed */
-        left: 50px; /* Adjust the left position as needed */
-        width: 30px; /* Increase the width as needed */
+        top: 1120px; /* Adjust the top position as needed */
+        left: 0px; /* Adjust the left position as needed */
+        width: 100vw; /* Increase the width as needed */
         height: 200px; /* Increase the height as needed */
-        border: 1px solid #000000;
+          mix-blend-mode: lighten;
+}
+.simplelink {
+    position: relative;
+    top: 500px;
+    left: 400px; /* Adjusted to move the link 20px to the right */
+    z-index: 2;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 0.1s ease;
+    position: relative; /* This line is not needed, you can remove it */
+}
+
+.simplelink:hover {
+    font-family: 'pixelify sans', sans-serif;
+    font-size: 30px;
+    color: #c39555;
 }
 
 h1{
-  font-family: 'Pixelify Sans', sans-serif;
+  font-family: 'Dela Gothic One', sans-serif;
   font-size: 200px;
   letter-spacing: 70px;
+  color: #c39555;
 }
 
 h2{
-  font-family: 'Pixelify Sans', sans-serif;
+  font-family: 'Dela Gothic One', sans-serif;
   font-size: 120px;
   letter-spacing: 90px;
-}
+  color: #c39555;
 
+            position: relative;
+            top: 300px; /* Adjust the top position as needed */
+            left: 20px; /* Adjust the left position as needed */
+            z-index: 2; /* Set a higher z-index to place it on top of the images */
+        }
+a {
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 10px;
+  color: #c39555;
+  position:relative;
+  top: 800px;
+}
 p{
   font-family: 'Pixelify Sans', sans-serif;
   font-size: 120px;
   letter-spacing: 60px;
+  color: #c39555;
 }
  
