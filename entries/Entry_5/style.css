@@ -9,7 +9,16 @@
           top:;
           background: black;
         }
-       
+h2{
+  font-family: 'Dela Gothic One', sans-serif;
+  font-size: 120px;
+  letter-spacing: 90px;
+  color: #c39555;
+
+            position: relative;
+            left: 50px; /* Adjust the left position as needed */
+            z-index: 2; /* Set a higher z-index to place it on top of the images */
+        }
 img {
   top: 0px;
   left:0px;
@@ -123,17 +132,6 @@ h1{
   color: #c39555;
 }
 
-h2{
-  font-family: 'Dela Gothic One', sans-serif;
-  font-size: 120px;
-  letter-spacing: 90px;
-  color: #c39555;
-
-            position: relative;
-            top: 300px; /* Adjust the top position as needed */
-            left: 20px; /* Adjust the left position as needed */
-            z-index: 2; /* Set a higher z-index to place it on top of the images */
-        }
 a {
   font-family: 'Pixelify Sans', sans-serif;
   font-size: 10px;
