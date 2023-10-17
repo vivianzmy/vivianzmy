@@ -62,7 +62,7 @@ body {
 }
 
 .grid-item:hover {
-  transform: scale(1.1); /* Enlarge the image on hover */
+  transform: scale(2.1); /* Enlarge the image on hover */
   background-color: rgba(0, 0, 0, 0.2); /* Change the background color on hover */
 }
 
