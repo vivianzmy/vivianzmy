@@ -1,0 +1,93 @@
+
+
+body {
+  background-color: #fff; /* White background */
+  color: #000; /* Black text */
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Ensure a vertical layout */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative; /* Set body to a relative position for absolute ellipses */
+}
+
+/* Rest of your CSS code */
+
+.heading {
+  text-align: left !important;
+  margin: 0;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 30px;
+}
+
+.ellipses {
+  font-family: 'Pixelify Sans', sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  font-size: 40px;
+  pointer-events: none; /* Ensure that the ellipses don't interfere with other elements */
+}
+
+/* Add ellipses content */
+.ellipses::before, .ellipses::after {
+  content: '...';
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+  max-width: 600px;
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto; /* Center horizontally */
+  margin-top: 20px; /* Add margin to separate the heading from the grid */
+}
+
+.grid-item {
+  width: 200px; /* Adjust as needed to create square grid items */
+  height: 200px; /* Adjust as needed to create square grid items */
+  transition: transform 0.3s, background-color 0.3s; /* Add a smooth transition effect for transform and background-color changes */
+  overflow: hidden; /* Hide overflowing content within the grid items */
+}
+
+.grid-item:hover {
+  transform: scale(1.1); /* Enlarge the image on hover */
+  background-color: rgba(0, 0, 0, 0.2); /* Change the background color on hover */
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+.subheading {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Single column on small screens */
+    grid-template-rows: repeat(9, 1fr); /* 1 by 9 vertical row */
+    gap: 5%; /* Adjust the gap for small screens */
+  }
+  .grid-item {
+    width: 100%; /* 100% width for full column */
+    height: 100px; /* Adjust as needed for the height of each row item */
+  }
+}
