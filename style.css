@@ -1,0 +1,46 @@
+/* Center the container vertically and horizontally */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #39FF14;
+  font-family: 'Pixelify Sans', sans-serif;
+  background-color: black;
+}
+
+/* Style the container to control spacing between h1 and the list */
+.container {
+  text-align: center;
+  margin: 20px; /* Adjust as needed */
+}
+
+
+/* The rest of your existing styles for the buttons */
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ol li {
+  display: inline-block;
+  margin: 5px;
+}
+
+ol li a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color:#39FF14 ;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+ol li a:hover {
+  background-color: #39FF14;
+  color:black;
+}
