@@ -1,0 +1,451 @@
+
+
+body {
+    background-color: black;
+}
+.additional-button {
+    font-size: 20px;
+    background-color: black;
+    width: 100px;
+    height: 40px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    margin: 10px; /* Add margin to create spacing between buttons */
+    top: calc(10% + (80% * var(--random-y)));
+    left: calc(10% + (80% * var(--random-x)));
+}
+
+.additional-button:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.button-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px; /* Add gap to create space between grid items */
+}
+
+.button1 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    /* Additional styles for Button 1 */
+}
+
+/* Change font and size for Button 2 */
+.button2 {
+    font-family: "Pixelify Sans", serif;
+    font-size: 38px;
+    font-weight: bold;
+    /* Additional styles for Button 2 */
+}
+
+/* Change font and size for Button 3 */
+.button3 {
+    font-family: "Agbalumo", sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    /* Additional styles for Button 3 */
+}
+
+.button4 {
+    font-family: "Agbalumo", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    /* Additional styles for Button 1 */
+}
+
+/* Change font and size for Button 2 */
+.button5 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    /* Additional styles for Button 2 */
+}
+
+/* Change font and size for Button 3 */
+.button6 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    /* Additional styles for Button 3 */
+}
+
+.button7 {
+    font-family: "Agbalumo", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    /* Additional styles for Button 1 */
+}
+
+/* Change font and size for Button 2 */
+.button8 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 66px;
+    font-weight: bold;
+    /* Additional styles for Button 2 */
+}
+
+/* Change font and size for Button 3 */
+.button9 {
+    font-family: "Anton", sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    /* Additional styles for Button 3 */
+}
+
+.button10 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    /* Additional styles for Button 1 */
+}
+
+/* Change font and size for Button 2 */
+.button11 {
+    font-family: "Agbalumo", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    /* Additional styles for Button 2 */
+}
+
+/* Change font and size for Button 3 */
+.button12 {
+    font-family: "Anton", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    /* Additional styles for Button 3 */
+}
+
+.button13 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    /* Additional styles for Button 2 */
+}
+
+/* Change font and size for Button 3 */
+.button14 {
+    font-family: "Anton", sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    /* Additional styles for Button 3 */
+}
+
+.button15 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    /* Additional styles for Button 1 */
+}
+
+/* Change font and size for Button 2 */
+.button16 {
+    font-family: "Agbalumo", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    /* Additional styles for Button 2 */
+}
+
+/* Change font and size for Button 3 */
+.button17 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    /* Additional styles for Button 3 */
+}
+.button18 {
+    font-family: "Agbalumo", sans-serif;
+    font-size: 66px;
+    font-weight: bold;
+    /* Additional styles for Button 2 */
+}
+
+/* Change font and size for Button 3 */
+.button19 {
+    font-family: "Anton", sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    /* Additional styles for Button 3 */
+}.button20 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    /* Additional styles for Button 2 */
+}
+
+/* Change font and size for Button 3 */
+.button21 {
+    font-family: "Anton", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    /* Additional styles for Button 3 */
+}
+.button22 {
+    font-family: "Agbalumo", sans-serif;
+    font-size: 66px;
+    font-weight: bold;
+    /* Additional styles for Button 2 */
+}
+
+/* Change font and size for Button 3 */
+.button23 {
+    font-family: "Anton", sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    /* Additional styles for Button 3 */
+}.button24 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    /* Additional styles for Button 2 */
+}
+
+/* Change font and size for Button 3 */
+.button25 {
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    /* Additional styles for Button 3 */
+}
+.button26 {
+    font-family: "Agbalumo", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    /* Additional styles for Button 2 */
+}
+
+/* Change font and size for Button 3 */
+.button27 {
+    font-family: "Anton", sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    /* Additional styles for Button 3 */
+}.button28 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+    /* Additional styles for Button 2 */
+}
+
+/* Change font and size for Button 3 */
+
+.button-container .additional-button:nth-child(1) {
+    size: 100px;
+    --random-x: 0.2;
+    --random-y: 0.1;
+}
+
+.button-container .additional-button:nth-child(2) {
+    --random-x: 0.8;
+    --random-y: 0.1;
+}
+
+.button-container .additional-button:nth-child(3) {
+    --random-x: 0.1;
+    --random-y: 0.6;
+}
+
+.button-container .additional-button:nth-child(4) {
+    --random-x: 0.8;
+    --random-y: 0.6;
+}
+
+.button-container .additional-button:nth-child(5) {
+    --random-x: 0.5;
+    --random-y: 0.5;
+}
+
+.button-container .additional-button:nth-child(6) {
+    --random-x: 0.3;
+    --random-y: 0.3;
+}
+
+.button-container .additional-button:nth-child(7) {
+    --random-x: 0.7;
+    --random-y: 0.3;
+}
+
+.button-container .additional-button:nth-child(8) {
+    --random-x: 0.3;
+    --random-y: 0.7;
+}
+
+.button-container .additional-button:nth-child(9) {
+    --random-x: 0.7;
+    --random-y: 0.7;
+}
+
+.button-container .additional-button:nth-child(10) {
+    --random-x: 0.6;
+    --random-y: 0.4;
+}
+
+.button-container .additional-button:nth-child(11) {
+    --random-x: 0.4;
+    --random-y: 0.6;
+}
+
+.button-container .additional-button:nth-child(12) {
+    --random-x: 0.2;
+    --random-y: 0.4;
+}
+
+.button-container .additional-button:nth-child(13) {
+    --random-x: 0.6;
+    --random-y: 0.2;
+}
+
+.button-container .additional-button:nth-child(14) {
+    --random-x: 0.4;
+    --random-y: 0.8;
+}
+
+.button-container .additional-button:nth-child(15) {
+    --random-x: 0.8;
+    --random-y: 0.4;
+}
+
+.button-container .additional-button:nth-child(16) {
+    --random-x: 0.1;
+    --random-y: 0.8;
+}
+
+.button-container .additional-button:nth-child(17) {
+    --random-x: 0.9;
+    --random-y: 0.9;
+}
+
+.button-container .additional-button:nth-child(18) {
+    --random-x: 0.9;
+    --random-y: 0.1;
+}
+
+.button-container .additional-button:nth-child(19) {
+    --random-x: 0.1;
+    --random-y: 0.9;
+}
+
+.button-container .additional-button:nth-child(20) {
+    --random-x: 0.5;
+    --random-y: 0.2;
+}
+
+.additional-button:nth-child(29) {
+    --random-x: 0.25;
+    --random-y: 0.15;
+}
+
+.additional-button:nth-child(30) {
+    --random-x: 0.7;
+    --random-y: 0.2;
+}
+
+.additional-button:nth-child(31) {
+    --random-x: 0.15;
+    --random-y: 0.6;
+}
+
+.additional-button:nth-child(32) {
+    --random-x: 0.8;
+    --random-y: 0.65;
+}
+
+.additional-button:nth-child(33) {
+    --random-x: 0.45;
+    --random-y: 0.45;
+}
+
+.additional-button:nth-child(34) {
+    --random-x: 0.6;
+    --random-y: 0.3;
+}
+
+.additional-button:nth-child(35) {
+    --random-x: 0.1;
+    --random-y: 0.8;
+}
+
+.additional-button:nth-child(36) {
+    --random-x: 0.9;
+    --random-y: 0.85;
+}
+
+.additional-button:nth-child(37) {
+    --random-x: 0.4;
+    --random-y: 0.8;
+}
+
+.additional-button:nth-child(38) {
+    --random-x: 0.85;
+    --random-y: 0.4;
+}
+
+.additional-button:nth-child(39) {
+    --random-x: 0.1;
+    --random-y: 0.5;
+}
+
+.additional-button:nth-child(40) {
+    --random-x: 0.9;
+    --random-y: 0.5;
+}
+
+.additional-button:nth-child(41) {
+    --random-x: 0.5;
+    --random-y: 0.1;
+}
+
+.additional-button:nth-child(42) {
+    --random-x: 0.5;
+    --random-y: 0.9;
+}
+
+.additional-button:nth-child(43) {
+    --random-x: 0.1;
+    --random-y: 0.1;
+}
+
+.additional-button:nth-child(44) {
+    --random-x: 0.9;
+    --random-y: 0.9;
+}
+
+.additional-button:nth-child(45) {
+    --random-x: 0.1;
+    --random-y: 0.9;
+}
+
+.additional-button:nth-child(46) {
+    --random-x: 0.9;
+    --random-y: 0.1;
+}
+
+/* Your existing CSS for buttons and button-container */
+
+@media (max-width: 600px) {
+    /* CSS rules specific to screens with a maximum width of 600px (adjust as needed) */
+    
+    .additional-button {
+        font-size: 16px; /* Adjust font size for mobile */
+        width: 80px; /* Adjust button width for mobile */
+        height: 30px; /* Adjust button height for mobile */
+    }
+
+    .button-container {
+        grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns for mobile */
+        gap: 5px; /* Adjust spacing between buttons for mobile */
+    }
+}
+
+
+
+
+
