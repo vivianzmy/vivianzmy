@@ -1,0 +1,35 @@
+body {
+    font: sans-serif;
+    margin: 75px;
+    font-size: 40px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.button-container {
+    position: fixed;
+    bottom: 75px;
+    right: 75px;
+    color: white;
+    margin: 0; /* Remove unwanted margin */
+}
+
+.generate-button {
+    border-radius: 50%; /* Make the button round */
+    background-color: #90EE90; /* Set the background color of the button */
+    padding: 15px; /* Adjust padding as needed */
+    border: none; /* Remove border */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+.list-one {
+    color: #33B864;
+}
+
+.list-two {
+    color: #90EE90;
+}
+
+.list-three {
+    color: #33B864;
+}
