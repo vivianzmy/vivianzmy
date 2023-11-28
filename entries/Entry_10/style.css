@@ -1,43 +1,62 @@
 body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  background-color: black;
+  margin: 0; /* Remove default margin to use the entire viewport */
 }
 
-.grid-container {
-    position: absolute;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    padding: 10px;
-    cursor: pointer;
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.grid-container:hover .grid-item img {
-    transform: scale(1.2);
+.button {
+  background-color: black;
+  color: white;
+  font-size: 16px; /* Adjust font size to match the "RESET TO BLACK" button */
+  padding: 10px; /* Adjust padding to match the "RESET TO BLACK" button */
+  border: none;
+  border-radius: 8px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-.grid-item {
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
+.button:hover {
+  cursor: pointer;
+  opacity: .8;
+  transition: 8ms ease-out;
 }
 
-.grid-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
+/* Position the "CHANGE COLOR" button in the top left corner */
+#colorButton {
+  position: fixed;
+  top: 10px;
+  left: 10px;
 }
 
-/* Top Left Grid */
-.top-left {
-    top: 0;
-    left: 0;
+/* Style for the "RESET TO BLACK" button */
+#resetButton {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-/* Bottom Right Grid */
-.bottom-right {
-    bottom: 0;
-    right: 0;
+#resetButton:hover {
+  cursor: pointer;
+  opacity: .8;
+  transition: 8ms ease-out;
 }
