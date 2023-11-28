@@ -4,16 +4,16 @@ let currentIndex = 0;
 
 // Array of changing texts for the "CHANGE COLOR" button
 let changingTexts = [
-  "@___ sent you a message",
-  "scroll on tiktok",
-  "____'s black friday SALE starts now!",
-  "@___ sent you a reel",
-  "@___ mentioned you in a post",
-  "@___ sent you a reel",
-  "@___ posted a new video",
-  "watch youtube",
-  "browse on netflix",
-  "check IG",
+  "@____ sent a snap",
+  "@____ liked your story",
+  "@____'s black friday SALE starts now!",
+  "@____ sent you a reel",
+  "@____ mentioned you in a post",
+  "@____ sent you a reel",
+  "@____ just posted a new video",
+  "@____ tagged you in a post",
+  "@____ started a live video",
+  "@____ commented on your post",
   // Add more changing texts as needed
 ];
 
@@ -32,7 +32,7 @@ function resetToBlack() {
   console.log("Resetting to black...");
   body.style.backgroundColor = "#000000";
   // Reset the text of the "CHANGE COLOR" button
-  document.getElementById("colorButton").textContent = "CHANGE COLOR";
+  document.getElementById("colorButton").textContent = "goodnight :)";
 }
 
 document.getElementById("colorButton").addEventListener("click", newColor);
