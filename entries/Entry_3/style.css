@@ -1,20 +1,40 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 5vh;
+    font-weight: 300;
+    position: fixed;
+    top: 10px;
+    left: 0;
+    background-color: black; /* Background color for the header */
+}
+
+header a {
+    color: white; /* Text color for anchor elements within the header */
+    text-decoration: none; /* Remove underline from anchor elements */
+}
+
+
 h1 {
-
-                    
-font-family: 'Kanit', sans serif;
-font-size: 120px;
-letter-spacing: 70px;
+    font-family: 'Kanit', sans serif;
+    font-size: 120px;
+    letter-spacing: 70px;
 }
 
-h2{
-font-family: 'Kanit', sans serif;
-font-size: 120px;
-letter-spacing: 70px;
+h2 {
+    font-family: 'Kanit', sans serif;
+    font-size: 120px;
+    letter-spacing: 70px;
 }
+
 body {
-	background-color: black;
-	font-family: 'Kanit', sans-serif;
+    background-color: black;
+    font-family: 'Kanit', sans-serif;
 }
+
+/* ... your other styles ... */
+
 
 p {
 	font-family: 'Kanit', sans serif;

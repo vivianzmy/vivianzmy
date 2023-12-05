@@ -7,8 +7,18 @@
     <title>WHAT IF</title>
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap" rel="stylesheet">
     <style>
+
         h1, h2, p {
             font-family: 'Pixelify Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            width: 100vw; /* 100% of the viewport width */
+            height: 100vh; /* 100% of the viewport height */
+            object-fit: cover; /* Cover the entire container while maintaining aspect ratio */
+            display: block; /* Remove extra space below the image */
+            margin: 0 auto; /* Center the image horizontally */
         }
         .container {
             position: relative;
@@ -25,11 +35,39 @@
     </style>
 </head>
 
+
 <body>
+<header>
+    <div><a class="link" href="../Entry_2/index.html">←</a></div>
+    <div><a href="../Entry_5/index.html">→</a></div>
+    <style>
+   header {
+            display: flex;
+            justify-content: space-between;
+            width: calc(100% - 20px); /* 100% width minus 10px from each side */
+            font-size: 5vh;
+            font-weight: 300;
+            position: fixed;
+            top: 10px;
+            left: 10px; /* 10px left margin */
+            right: 10px; /* 10px right margin */
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+        }</style>
+</header>
     <div style="font-family: 'Pixelify Sans', sans-serif;"> <link href="https://fonts.google.com/specimen/Pixelify+Sans" rel="stylesheet">
     </div>
    <img src="https://media.tenor.com/w99LgL8zDfAAAAAC/words-screen.gif" alt="Snow" style="width:100%;">
-
+<style>
+    img {
+            width: 100vw; /* 100% of the viewport width */
+            height: 100vh; /* 100% of the viewport height */
+            object-fit: cover; /* Cover the entire container while maintaining aspect ratio */
+        }
+</style>
 <div class="container">
         <img src="https://media.tenor.com/1vkyYsjSLfcAAAAC/glitch-error.gif" alt="Snow" style="width:100%;">
 
