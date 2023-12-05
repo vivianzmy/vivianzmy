@@ -8,7 +8,6 @@ header {
     position: fixed;
     top: 10px;
     left: 0;
-    background-color: black; /* Background color for the header */
 }
 
 header a {
@@ -16,41 +15,42 @@ header a {
     text-decoration: none; /* Remove underline from anchor elements */
 }
 
-h1 {
-
-font-family: 'helvetica bold' sans-serif;
-font-size: 120px;
-color: #1F51FF;
-letter-spacing: 70px;
-}
-
-h2{
-font-size: 120px;
-font-family: 'helvetiva';
-color: #1F51FF;
-letter-spacing: 70px;
-}
 
 body {
-	background-color: black;
-}
-
-p {
-  text-indent: 10%;
-}
-
-body1 {
-	color: black;
-	
-}
-
-body2 {
-	color: whitesmoke;
-	font-family: helvetica;
-}
-
-body3 {
-	color: black;
+  background-color: black;
+ font-family: 'pixelify sans', sans-serif;
 }
 
 
+</style>
+</head>
+<body>
+
+
+h1 {
+  font-size: 80px;
+  color: whitesmoke;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+h2 {
+  font-size: 80px;
+  color: whitesmoke;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+
+h3 {
+  font-size: 150px;
+  color: black;
+  text-align: justify;
+}
+
+h3:hover {
+  background-color:black ;
+  font-size: 150px;
+  color: whitesmoke;
+  text-align: justify;
+}
