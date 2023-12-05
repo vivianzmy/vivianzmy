@@ -1,6 +1,30 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'pixelify sans', sans-serif;
+  width: calc(100% - 20px); /* 100% width minus 10px from each side */
+  font-size: 5vh;
+  font-weight: 300;
+  position: fixed;
+  top: 10px;
+  left: 10px; /* 10px left margin */
+  right: 10px; /* 10px right margin */
+  z-index: 1000; /* Ensure the header is above other elements */
+}
+
+header a {
+  color: white; /* Set the text color to white */
+  text-decoration: none;
+}
+
+.header-placeholder {
+  height: 0px; /* Adjust the height to match your header */
+}
+
 body {
   background-color: black;
   margin: 0; /* Remove default margin to use the entire viewport */
+  padding-top: 60px; /* Adjust the padding to create space for the header */
 }
 
 .wrapper {
@@ -8,6 +32,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  padding-top: 80px; /* Adjust the padding to create space below the header */
 }
 
 .button {
@@ -33,7 +58,7 @@ body {
 /* Position the "CHANGE COLOR" button in the top left corner */
 #colorButton {
   position: fixed;
-  top: 10px;
+  top: 50px;
   left: 10px;
 }
 

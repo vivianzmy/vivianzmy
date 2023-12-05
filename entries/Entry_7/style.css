@@ -1,3 +1,21 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Pixelify Sans", sans-serif;
+    width: calc(100% - 20px); /* 100% width minus 10px from each side */
+    font-size: 5vh;
+    font-weight: 300;
+    position: fixed;
+    top: 10px;
+    left: 10px; /* 10px left margin */
+    right: 10px; /* 10px right margin */
+    z-index: 1000; /* Ensure the header is above other elements */
+}
+
+header a {
+    color: white; /* Set the text color to white */
+    text-decoration: none;
+}
 
 
 body {

@@ -1,13 +1,189 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'pixelify sans', sans-serif;
+  width: calc(100% - 20px); /* 100% width minus 10px from each side */
+  font-size: 5vh;
+  font-weight: 300;
+  position: fixed;
+  top: 10px;
+  left: 10px; /* 10px left margin */
+  right: 10px; /* 10px right margin */
+  z-index: 1000; /* Ensure the header is above other elements */
+}
 
-  .html, body {
-    font-family: 'Bebas Neue', sans-serif;
+header a {
+  color: white; /* Set the text color to white */
+  text-decoration: none;
+}
+
+div {
+    display: block;
+}
+body {
+    text-align: center;
     background-color: black;
-    color: white;
+    margin-top: -1vh;
+}
+
+button{
+font-family: 'pixelify sans', sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+button:hover{
+  cursor: pointer;
+}
+
+.btn1{
+  position: relative;
+  margin-top: 29vh;
+  font-size:3.5vw;
+  background-color: blue;
+  color: magenta;
+  padding: .25em;
+}
+
+.btn1:hover{
+  background-color: magenta;
+  color: blue;
+}
+
+.btn2{
+  position: relative;
+  margin-top: 30vh;
+  margin-left: 15vw;
+  font-size: 6vw;
+  background-color: yellow;
+  color: rebeccapurple;
+  padding: .25em;
+}
+
+.btn2:hover{
+  background-color: rebeccapurple;
+  color: yellow;
+}
+
+.btn3{
+  position: relative;
+  top: -35vh;
+  margin-right: 2vw;
+  font-size: 4.5vw;
+  background-color: orange;
+  color: lightblue;
+  padding: .25em;
+}
+
+.btn3:hover{
+  background-color: lightblue;
+  color: orange;
+}
+
+.btn4{
+  position: relative;
+  top: -80vh;
+  right: -55vw;
+  font-size: 6.5vw;
+  background-color: green;
+  color: lightpink;
+  padding: .25em;
+}
+
+.btn4:hover{
+  background-color: lightpink;
+  color: green;
+}
+
+.btn5{
+  position: relative;
+  top: -73vh;
+  right: -45vw;
+  font-size: 9vw;
+  background-color: mediumpurple;
+  color: #42280E;
+  padding: .25em;
+}
+
+.btn5:hover{
+  background-color: #42280E;
+  color: mediumpurple;
+}
+
+.btn6{
+  position: relative;
+  top: -135vh;
+  margin-left: 10vw;
+  font-size: 10.25vw;
+  background-color: red;
+  color: turquoise;
+  padding: .25em;
+}
+
+.btn6:hover{
+  background-color: turquoise;
+  color: red;
+}
+
+.btn7{
+  position: relative;
+  top: -110vh;
+  margin-left: 20vw;
+  font-size: 13.5vw;
+  background-color: gray;
+  color: lightgreen;
+  padding: .22em;
+}
+
+.btn7:hover{
+  background-color: lightgreen;
+  color: gray;
+}
+
+.btn8{
+  position: relative;
+  top: -180vh;
+  right: -.5vw;
+  font-size: 16.75vw;
+  background-color: white;
+  color: black;
+  padding: .25em;
+}
+
+.btn8:hover{
+  background-color: black;
+  color: white;
+}
+
+
+@media only screen and (max-width: 600px){
+  .btn1{
+    bottom: -15vh;
   }
-  .h1, h2, h3, h4, h5, h6 {
-    font-family: 'Bebas Neue', sans-serif;
+  .btn2{
+    bottom: -10vh;
   }
-  marquee {
-    font-size: 60px; /* You can adjust the font size as needed */
+  .btn3{
+    bottom: -15vh;
   }
+  .btn4{
+    top: -79vh;
+    left: 3vw;
+  }
+  .btn5{
+    bottom: -70vh;
+  }
+  .btn6{
+    top: -40vh;
+  }
+  .btn7{
+    top: -85vh;
+  }
+  .btn8{
+    top: -100vh;
+  }
+
+}
+
+
+
 
