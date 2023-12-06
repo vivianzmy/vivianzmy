@@ -17,12 +17,16 @@ header a {
     color: white; /* Set the text color to white */
     text-decoration: none;
 }
-
+#gradient-container {
+    height: 1900vh; /* Adjust the height of the gradient */
+    background: linear-gradient(to bottom, #000, #0088aa);
+    position: relative;
+}
 body {
     font-family: 'pixelify sans', sans-serif;
       background-color: black;
       color: whitesmoke;
-      font-size: 60px;
+      font-size: 50px;
       text-align: center;
     }
     
